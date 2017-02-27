@@ -7,8 +7,7 @@
   "homepage": "https://mods.factorio.com/keryja/arumbalights-modsupport",
   "dependencies": [
     "base",
-    "? Aircraft >= 1.1.4",
-    "? angelslogistics >= 0.1.1"
+    "? Aircraft >= 1.1.4"
   ],
   "description": "Adds lights similar to Arumba Lights to various modded vehicles (Works standalone as well)"
 }
