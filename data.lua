@@ -27,3 +27,29 @@ if data.raw["car"]["cargo-plane"] then
     }
   }
 end
+if data.raw["car"]["angels-crawler"] then
+  data.raw["car"]["angels-crawler"].light = {
+    {
+      intensity = 0.9,
+      size = 150,
+    }
+  }
+end
+
+if data.raw["locomotive"]["crawler-locomotive"] then
+  data.raw["locomotive"]["crawler-locomotive"].front_light = {
+    {
+      intensity = 0.9,
+      size = 150,
+    }
+  }
+end
+
+if data.raw["locomotive"]["crawler-locomotive-wagon"] then
+  data.raw["locomotive"]["crawler-locomotive-wagon"].front_light = {
+    {
+      intensity = 0.9,
+      size = 150,
+    }
+  }
+end
